@@ -1,4 +1,4 @@
-[Grade Report] https://codecamp-stl-may2017.github.io/unit-1-assignments-sleepytodd1/
+[Grade Report] https://codecamp-stl-may2017.github.io/unit-1-assignments-sleepytodd1/report.html
 
 
 

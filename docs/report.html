@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 09-May-2017 at 16:18:14 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
+    <p>Report generated on 09-May-2017 at 16:34:14 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -244,8 +244,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.0</td></tr></table>
     <h2>Summary</h2>
-    <p>77 tests ran in 0.36 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">76 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>77 tests ran in 0.32 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">71 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -256,51 +256,6 @@ function filter_table(elem) {
           <th class="sortable numeric" col="duration">Duration</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_03</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_03.test_solution.TestChapter03 testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(calculate_temp(49), 89)<br/><br/>Chapter_03/test_solution.py:8: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>num_clicks = 49<br/><br/>    def calculate_temp(num_clicks):<br/>    # TODO calculate the temperature (use the variable name of temp) num clicks will be number of clicks<br/>    # #put answer in the temp variable<br/>&gt;       num_clicks = clicks<br/><span class="error">E       NameError: name &#x27;clicks&#x27; is not defined</span><br/><br/>Chapter_03/solution.py:4: NameError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_03</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution_2</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_03.test_solution.TestChapter03 testMethod=test_solution_2&gt;<br/><br/>    def test_solution_2(self):<br/>&gt;       self.assertEqual(calculate_temp(50), 40)<br/><br/>Chapter_03/test_solution.py:11: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>num_clicks = 50<br/><br/>    def calculate_temp(num_clicks):<br/>    # TODO calculate the temperature (use the variable name of temp) num clicks will be number of clicks<br/>    # #put answer in the temp variable<br/>&gt;       num_clicks = clicks<br/><span class="error">E       NameError: name &#x27;clicks&#x27; is not defined</span><br/><br/>Chapter_03/solution.py:4: NameError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_03</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution_3</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_03.test_solution.TestChapter03 testMethod=test_solution_3&gt;<br/><br/>    def test_solution_3(self):<br/>&gt;       self.assertEqual(calculate_temp(0), 40)<br/><br/>Chapter_03/test_solution.py:14: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>num_clicks = 0<br/><br/>    def calculate_temp(num_clicks):<br/>    # TODO calculate the temperature (use the variable name of temp) num clicks will be number of clicks<br/>    # #put answer in the temp variable<br/>&gt;       num_clicks = clicks<br/><span class="error">E       NameError: name &#x27;clicks&#x27; is not defined</span><br/><br/>Chapter_03/solution.py:4: NameError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_03</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution_4</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_03.test_solution.TestChapter03 testMethod=test_solution_4&gt;<br/><br/>    def test_solution_4(self):<br/>&gt;       self.assertEqual(calculate_temp(201), 41)<br/><br/>Chapter_03/test_solution.py:17: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>num_clicks = 201<br/><br/>    def calculate_temp(num_clicks):<br/>    # TODO calculate the temperature (use the variable name of temp) num clicks will be number of clicks<br/>    # #put answer in the temp variable<br/>&gt;       num_clicks = clicks<br/><span class="error">E       NameError: name &#x27;clicks&#x27; is not defined</span><br/><br/>Chapter_03/solution.py:4: NameError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_03</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution_5</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_03.test_solution.TestChapter03 testMethod=test_solution_5&gt;<br/><br/>    def test_solution_5(self):<br/>&gt;       self.assertEqual(calculate_temp(-1), 89)<br/><br/>Chapter_03/test_solution.py:20: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>num_clicks = -1<br/><br/>    def calculate_temp(num_clicks):<br/>    # TODO calculate the temperature (use the variable name of temp) num clicks will be number of clicks<br/>    # #put answer in the temp variable<br/>&gt;       num_clicks = clicks<br/><span class="error">E       NameError: name &#x27;clicks&#x27; is not defined</span><br/><br/>Chapter_03/solution.py:4: NameError<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td>Chapter_04</td>
@@ -940,6 +895,56 @@ function filter_table(elem) {
         <tr>
           <td class="extra" colspan="4">
             <div class="log">self = &lt;initials.test_solution.TestInitials testMethod=test_solution_4&gt;<br/><br/>    def test_solution_4(self):<br/>&gt;       self.assertEqual(get_initials(&quot;Daniel day Lewis&quot;), &quot;DDL&quot;)<br/><span class="error">E       AssertionError: None != &#x27;DDL&#x27;</span><br/><br/>initials/test_solution.py:17: AssertionError<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_03</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">----------------------------- Captured stdout call -----------------------------<br/>89
+</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_03</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution_2</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">----------------------------- Captured stdout call -----------------------------<br/>40
+</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_03</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution_3</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">----------------------------- Captured stdout call -----------------------------<br/>40
+</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_03</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution_4</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">----------------------------- Captured stdout call -----------------------------<br/>41
+</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_03</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_03/test_solution.py::TestChapter03::test_solution_5</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">----------------------------- Captured stdout call -----------------------------<br/>89
+</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td>Chapter_13</td>

@@ -1,3 +1,7 @@
+[Grade Report] https://codecamp-stl-may2017.github.io/unit-1-assignments-sleepytodd1/
+
+
+
 # Thinkcspy Assignments
 
 This repository will be used to create and submit your homework solutions. There are a few steps you'll need to take to get this set up on your computer so you can work on it locally. We'll describe those in the next section. Then, we'll describe how to use the repository, i.e., what is in the folder for each chapter, what files you will need to change, and how your homework will be graded.

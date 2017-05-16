@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 09-May-2017 at 16:34:14 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
+    <p>Report generated on 16-May-2017 at 14:26:40 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -244,8 +244,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.0</td></tr></table>
     <h2>Summary</h2>
-    <p>77 tests ran in 0.32 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">71 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>77 tests ran in 0.34 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">17 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">60 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -265,105 +265,6 @@ function filter_table(elem) {
         <tr>
           <td class="extra" colspan="4">
             <div class="log">self = &lt;Chapter_04.test_solution.TestChapter04 testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(square([2, 3, 4, 6, 9, 10, 15, 20]), [4, 9, 16, 36, 81, 100, 225, 400])<br/><span class="error">E       AssertionError: Lists differ: [] != [4, 9, 16, 36, 81, 100, 225, 400]</span><br/><span class="error">E       </span><br/><span class="error">E       Second list contains 8 additional elements.</span><br/><span class="error">E       First extra element 0:</span><br/><span class="error">E       4</span><br/><span class="error">E       </span><br/><span class="error">E       - []</span><br/><span class="error">E       + [4, 9, 16, 36, 81, 100, 225, 400]</span><br/><br/>Chapter_04/test_solution.py:7: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_05</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_05.test_solution.TestChapter05 testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(area_of_circle(0), 0)<br/><span class="error">E       AssertionError: None != 0</span><br/><br/>Chapter_05/test_solution.py:8: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_05</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution_2</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_05.test_solution.TestChapter05 testMethod=test_solution_2&gt;<br/><br/>    def test_solution_2(self):<br/>&gt;       self.assertEqual(area_of_circle(1), math.pi)<br/><span class="error">E       AssertionError: None != 3.141592653589793</span><br/><br/>Chapter_05/test_solution.py:11: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_05</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution_3</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_05.test_solution.TestChapter05 testMethod=test_solution_3&gt;<br/><br/>    def test_solution_3(self):<br/>&gt;       self.assertEqual(area_of_circle(100), 31415.926535897932)<br/><span class="error">E       AssertionError: None != 31415.926535897932</span><br/><br/>Chapter_05/test_solution.py:14: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_05</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution_4</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_05.test_solution.TestChapter05 testMethod=test_solution_4&gt;<br/><br/>    def test_solution_4(self):<br/>&gt;       self.assertEqual(area_of_circle(-1), math.pi)<br/><span class="error">E       AssertionError: None != 3.141592653589793</span><br/><br/>Chapter_05/test_solution.py:17: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_05</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution_5</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_05.test_solution.TestChapter05 testMethod=test_solution_5&gt;<br/><br/>    def test_solution_5(self):<br/>&gt;       self.assertEqual(area_of_circle(-5), 25 * math.pi)<br/><span class="error">E       AssertionError: None != 78.53981633974483</span><br/><br/>Chapter_05/test_solution.py:20: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_06</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_06.test_solution.TestChapter06 testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(is_Leap(1944), True)<br/><span class="error">E       AssertionError: None != True</span><br/><br/>Chapter_06/test_solution.py:7: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_06</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_02</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_06.test_solution.TestChapter06 testMethod=test_solution_02&gt;<br/><br/>    def test_solution_02(self):<br/>&gt;       self.assertEqual(is_Leap(2011), False)<br/><span class="error">E       AssertionError: None != False</span><br/><br/>Chapter_06/test_solution.py:10: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_06</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_03</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_06.test_solution.TestChapter06 testMethod=test_solution_03&gt;<br/><br/>    def test_solution_03(self):<br/>&gt;       self.assertEqual(is_Leap(1986), False)<br/><span class="error">E       AssertionError: None != False</span><br/><br/>Chapter_06/test_solution.py:13: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_06</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_04</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_06.test_solution.TestChapter06 testMethod=test_solution_04&gt;<br/><br/>    def test_solution_04(self):<br/>&gt;       self.assertEqual(is_Leap(1956), True)<br/><span class="error">E       AssertionError: None != True</span><br/><br/>Chapter_06/test_solution.py:16: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_06</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_05</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_06.test_solution.TestChapter06 testMethod=test_solution_05&gt;<br/><br/>    def test_solution_05(self):<br/>&gt;       self.assertEqual(is_Leap(1800), False)<br/><span class="error">E       AssertionError: None != False</span><br/><br/>Chapter_06/test_solution.py:19: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_06</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_06</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_06.test_solution.TestChapter06 testMethod=test_solution_06&gt;<br/><br/>    def test_solution_06(self):<br/>&gt;       self.assertEqual(is_Leap(1600), True)<br/><span class="error">E       AssertionError: None != True</span><br/><br/>Chapter_06/test_solution.py:22: AssertionError<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td>Chapter_07</td>
@@ -945,6 +846,105 @@ function filter_table(elem) {
           <td class="extra" colspan="4">
             <div class="log">----------------------------- Captured stdout call -----------------------------<br/>89
 </div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_05</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_05</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution_2</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_05</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution_3</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_05</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution_4</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_05</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_05/test_solution.py::TestChapter05::test_solution_5</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_06</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_06</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_02</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_06</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_03</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_06</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_04</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_06</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_05</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_06</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_06/test_solution.py::TestChapter06::test_solution_06</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td>Chapter_13</td>

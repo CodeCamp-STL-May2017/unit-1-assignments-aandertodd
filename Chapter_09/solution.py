@@ -1,7 +1,16 @@
 def mirror(text):
+    rev = reverse(text)
+    mir = text + rev
+    for i in text:
+        if i == 'a':
+            mir = mir.upper()
+    return mir
 
-    return 
 
 def reverse(text):
-
-    return 
+    
+    r = ''
+    for i in text:
+        r = i + r 
+    
+    return r

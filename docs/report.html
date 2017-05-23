@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 22-May-2017 at 10:26:10 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
+    <p>Report generated on 22-May-2017 at 17:13:30 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -244,8 +244,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.0</td></tr></table>
     <h2>Summary</h2>
-    <p>77 tests ran in 0.30 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">31 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">46 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>77 tests ran in 0.28 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">35 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">42 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -634,42 +634,6 @@ function filter_table(elem) {
         <tr>
           <td class="extra" colspan="4">
             <div class="log">self = &lt;crypto.test_vigenere.TestVigenere testMethod=test_solution_9&gt;<br/><br/>    def test_solution_9(self):<br/>&gt;       self.assertEqual(encrypt(&quot;Wow. This TOTALLY rocks: #CodingRocks&quot;, &quot;enthusiasm&quot;), &quot;Abp. Abaa TGFEYEF lgkkk: #OsqbuaJwcce&quot;)<br/><span class="error">E       TypeError: encrypt() takes 0 positional arguments but 2 were given</span><br/><br/>crypto/test_vigenere.py:33: TypeError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>initials</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">initials/test_solution.py::TestInitials::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;initials.test_solution.TestInitials testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(get_initials(&quot;Ozzie Smith&quot;), &quot;OS&quot;)<br/><span class="error">E       AssertionError: None != &#x27;OS&#x27;</span><br/><br/>initials/test_solution.py:8: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>initials</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">initials/test_solution.py::TestInitials::test_solution_2</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;initials.test_solution.TestInitials testMethod=test_solution_2&gt;<br/><br/>    def test_solution_2(self):<br/>&gt;       self.assertEqual(get_initials(&quot;Bonnie blair&quot;), &quot;BB&quot;)<br/><span class="error">E       AssertionError: None != &#x27;BB&#x27;</span><br/><br/>initials/test_solution.py:11: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>initials</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">initials/test_solution.py::TestInitials::test_solution_3</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;initials.test_solution.TestInitials testMethod=test_solution_3&gt;<br/><br/>    def test_solution_3(self):<br/>&gt;       self.assertEqual(get_initials(&quot;George&quot;), &quot;G&quot;)<br/><span class="error">E       AssertionError: None != &#x27;G&#x27;</span><br/><br/>initials/test_solution.py:14: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>initials</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">initials/test_solution.py::TestInitials::test_solution_4</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;initials.test_solution.TestInitials testMethod=test_solution_4&gt;<br/><br/>    def test_solution_4(self):<br/>&gt;       self.assertEqual(get_initials(&quot;Daniel day Lewis&quot;), &quot;DDL&quot;)<br/><span class="error">E       AssertionError: None != &#x27;DDL&#x27;</span><br/><br/>initials/test_solution.py:17: AssertionError<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td>Chapter_03</td>
@@ -950,6 +914,42 @@ function filter_table(elem) {
           <td>Chapter_13</td>
           <td class="col-result">Passed</td>
           <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_03</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>initials</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">initials/test_solution.py::TestInitials::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>initials</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">initials/test_solution.py::TestInitials::test_solution_2</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>initials</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">initials/test_solution.py::TestInitials::test_solution_3</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>initials</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">initials/test_solution.py::TestInitials::test_solution_4</td>
           <td class="col-duration">0.00</td></tr>
         <tr>
           <td class="extra" colspan="4">

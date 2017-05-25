@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 24-May-2017 at 13:45:03 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
+    <p>Report generated on 25-May-2017 at 11:35:34 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -245,7 +245,7 @@ function filter_table(elem) {
         <td>3.6.0</td></tr></table>
     <h2>Summary</h2>
     <p>77 tests ran in 0.28 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">38 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">39 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">42 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">35 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -265,42 +265,6 @@ function filter_table(elem) {
         <tr>
           <td class="extra" colspan="4">
             <div class="log">self = &lt;Chapter_04.test_solution.TestChapter04 testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(square([2, 3, 4, 6, 9, 10, 15, 20]), [4, 9, 16, 36, 81, 100, 225, 400])<br/><span class="error">E       AssertionError: Lists differ: [] != [4, 9, 16, 36, 81, 100, 225, 400]</span><br/><span class="error">E       </span><br/><span class="error">E       Second list contains 8 additional elements.</span><br/><span class="error">E       First extra element 0:</span><br/><span class="error">E       4</span><br/><span class="error">E       </span><br/><span class="error">E       - []</span><br/><span class="error">E       + [4, 9, 16, 36, 81, 100, 225, 400]</span><br/><br/>Chapter_04/test_solution.py:7: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_11</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_11/test_solution.py::TestChapter11::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_11.test_solution.TestChapter11 testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(get_country_codes(&quot;NZ$300, KR$1200, DK$5&quot;), &quot;NZ, KR, DK&quot;)<br/><span class="error">E       AssertionError: None != &#x27;NZ, KR, DK&#x27;</span><br/><br/>Chapter_11/test_solution.py:7: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_11</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_11/test_solution.py::TestChapter11::test_solution_02</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_11.test_solution.TestChapter11 testMethod=test_solution_02&gt;<br/><br/>    def test_solution_02(self):<br/>&gt;       self.assertEqual(get_country_codes(&quot;US$40, AU$89, JP$200&quot;), &quot;US, AU, JP&quot;)<br/><span class="error">E       AssertionError: None != &#x27;US, AU, JP&#x27;</span><br/><br/>Chapter_11/test_solution.py:10: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_11</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_11/test_solution.py::TestChapter11::test_solution_03</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_11.test_solution.TestChapter11 testMethod=test_solution_03&gt;<br/><br/>    def test_solution_03(self):<br/>&gt;       self.assertEqual(get_country_codes(&quot;AU$23, NG$900, MX$200, BG$790, ES$2&quot;), &quot;AU, NG, MX, BG, ES&quot;)<br/><span class="error">E       AssertionError: None != &#x27;AU, NG, MX, BG, ES&#x27;</span><br/><br/>Chapter_11/test_solution.py:13: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_11</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_11/test_solution.py::TestChapter11::test_solution_04</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_11.test_solution.TestChapter11 testMethod=test_solution_04&gt;<br/><br/>    def test_solution_04(self):<br/>&gt;       self.assertEqual(get_country_codes(&quot;CA$40&quot;), &quot;CA&quot;)<br/><span class="error">E       AssertionError: None != &#x27;CA&#x27;</span><br/><br/>Chapter_11/test_solution.py:16: AssertionError<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td>Chapter_13</td>
@@ -905,6 +869,42 @@ function filter_table(elem) {
           <td>Chapter_10</td>
           <td class="col-result">Passed</td>
           <td class="col-name">Chapter_10/test_solution.py::TestChapter10::test_solution_03</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_11</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_11/test_solution.py::TestChapter11::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_11</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_11/test_solution.py::TestChapter11::test_solution_02</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_11</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_11/test_solution.py::TestChapter11::test_solution_03</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_11</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_11/test_solution.py::TestChapter11::test_solution_04</td>
           <td class="col-duration">0.00</td></tr>
         <tr>
           <td class="extra" colspan="4">

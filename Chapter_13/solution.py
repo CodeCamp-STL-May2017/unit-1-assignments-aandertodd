@@ -16,7 +16,9 @@ class Point:
         return ((self.x ** 2) + (self.y ** 2)) ** 0.5
 
     def slope_from_origin(self):
-
-            return
+        if self.x == 0:
+            return None
+        slope = self.y / self.x
+        return slope
 
 

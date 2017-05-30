@@ -1,12 +1,26 @@
-def alphabet_position(letter):
-# TODO implement your function 
+alph = 'abcdefghijklmnopqrstuvwxyz'
+alph2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'    
 
-    return 
+def alphabet_position(letter):
+
+     
+    
+    if letter < 'a':
+        return alph2.find(letter)
+    else:
+        return alph.find(letter)
 
 def rotate_character(char, rot):
-# TODO implement your function 
+    
+    newletter = (alphabet_position(char) + rot) % 26
+    newposition = alph[newletter] or alph2[newletter]
 
-    return 
+    if char in alph2:
+        return newposition.upper()
+    if char in alph:
+        return newposition.lower()
+    else:
+        return char
 
 def encrypt():
 # TODO implement your function 

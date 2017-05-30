@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 25-May-2017 at 11:35:34 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
+    <p>Report generated on 30-May-2017 at 16:46:20 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.14.2</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -244,8 +244,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.0</td></tr></table>
     <h2>Summary</h2>
-    <p>77 tests ran in 0.28 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">42 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">35 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>77 tests ran in 0.24 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">66 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">11 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -265,60 +265,6 @@ function filter_table(elem) {
         <tr>
           <td class="extra" colspan="4">
             <div class="log">self = &lt;Chapter_04.test_solution.TestChapter04 testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(square([2, 3, 4, 6, 9, 10, 15, 20]), [4, 9, 16, 36, 81, 100, 225, 400])<br/><span class="error">E       AssertionError: Lists differ: [] != [4, 9, 16, 36, 81, 100, 225, 400]</span><br/><span class="error">E       </span><br/><span class="error">E       Second list contains 8 additional elements.</span><br/><span class="error">E       First extra element 0:</span><br/><span class="error">E       4</span><br/><span class="error">E       </span><br/><span class="error">E       - []</span><br/><span class="error">E       + [4, 9, 16, 36, 81, 100, 225, 400]</span><br/><br/>Chapter_04/test_solution.py:7: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_13</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_13.test_solution.TestChapter13 testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(Point(4, 10).slope_from_origin(), 2.5)<br/><span class="error">E       AssertionError: None != 2.5</span><br/><br/>Chapter_13/test_solution.py:7: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_13</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_02</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_13.test_solution.TestChapter13 testMethod=test_solution_02&gt;<br/><br/>    def test_solution_02(self):<br/>&gt;       self.assertEqual(Point(5, 10).slope_from_origin(), 2)<br/><span class="error">E       AssertionError: None != 2</span><br/><br/>Chapter_13/test_solution.py:10: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_13</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_04</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_13.test_solution.TestChapter13 testMethod=test_solution_04&gt;<br/><br/>    def test_solution_04(self):<br/>&gt;       self.assertEqual(Point(20, 20).slope_from_origin(), 1)<br/><span class="error">E       AssertionError: None != 1</span><br/><br/>Chapter_13/test_solution.py:16: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_13</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_05</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_13.test_solution.TestChapter13 testMethod=test_solution_05&gt;<br/><br/>    def test_solution_05(self):<br/>&gt;       self.assertEqual(Point(4, -10).slope_from_origin(), -2.5)<br/><span class="error">E       AssertionError: None != -2.5</span><br/><br/>Chapter_13/test_solution.py:19: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_13</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_06</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_13.test_solution.TestChapter13 testMethod=test_solution_06&gt;<br/><br/>    def test_solution_06(self):<br/>&gt;       self.assertEqual(Point(-4, -10).slope_from_origin(), 2.5)<br/><span class="error">E       AssertionError: None != 2.5</span><br/><br/>Chapter_13/test_solution.py:22: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>Chapter_13</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_07</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Chapter_13.test_solution.TestChapter13 testMethod=test_solution_07&gt;<br/><br/>    def test_solution_07(self):<br/>&gt;       self.assertEqual(Point(-6, 0).slope_from_origin(), 0)<br/><span class="error">E       AssertionError: None != 0</span><br/><br/>Chapter_13/test_solution.py:25: AssertionError<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td>Chapter_14</td>
@@ -359,114 +305,6 @@ function filter_table(elem) {
         <tr>
           <td>crypto</td>
           <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(alphabet_position(&quot;a&quot;), 0)<br/><span class="error">E       AssertionError: None != 0</span><br/><br/>crypto/test_caesar.py:9: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_2</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution_2&gt;<br/><br/>    def test_solution_2(self):<br/>&gt;       self.assertEqual(alphabet_position(&quot;Y&quot;), 24)<br/><span class="error">E       AssertionError: None != 24</span><br/><br/>crypto/test_caesar.py:12: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_3</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution_3&gt;<br/><br/>    def test_solution_3(self):<br/>&gt;       self.assertEqual(rotate_character(&quot;a&quot;, 13), &quot;n&quot;)<br/><span class="error">E       AssertionError: None != &#x27;n&#x27;</span><br/><br/>crypto/test_caesar.py:15: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_4</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution_4&gt;<br/><br/>    def test_solution_4(self):<br/>&gt;       self.assertEqual(rotate_character(&quot;!&quot;, 45), &quot;!&quot;)<br/><span class="error">E       AssertionError: None != &#x27;!&#x27;</span><br/><br/>crypto/test_caesar.py:18: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_5</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution_5&gt;<br/><br/>    def test_solution_5(self):<br/>&gt;       self.assertEqual(rotate_character(&quot;C&quot;, 27), &quot;D&quot;)<br/><span class="error">E       AssertionError: None != &#x27;D&#x27;</span><br/><br/>crypto/test_caesar.py:21: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_6</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution_6&gt;<br/><br/>    def test_solution_6(self):<br/>&gt;       self.assertEqual(rotate_character(&quot;z&quot;, 37), &quot;k&quot;)<br/><span class="error">E       AssertionError: None != &#x27;k&#x27;</span><br/><br/>crypto/test_caesar.py:24: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_7</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution_7&gt;<br/><br/>    def test_solution_7(self):<br/>&gt;       self.assertEqual(encrypt(&quot;a&quot;, 13), &quot;n&quot;)<br/><span class="error">E       AssertionError: None != &#x27;n&#x27;</span><br/><br/>crypto/test_caesar.py:27: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_8</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution_8&gt;<br/><br/>    def test_solution_8(self):<br/>&gt;       self.assertEqual(encrypt(&quot;LaunchCode&quot;, 13), &quot;YnhapuPbqr&quot;)<br/><span class="error">E       AssertionError: None != &#x27;YnhapuPbqr&#x27;</span><br/><br/>crypto/test_caesar.py:30: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_9</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_caesar.TestCaesar testMethod=test_solution_9&gt;<br/><br/>    def test_solution_9(self):<br/>&gt;       self.assertEqual(encrypt(&quot;Hello, World!&quot;, 5), &quot;Mjqqt, Btwqi!&quot;)<br/><span class="error">E       AssertionError: None != &#x27;Mjqqt, Btwqi!&#x27;</span><br/><br/>crypto/test_caesar.py:33: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_crypto.py::TestCrypto::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_crypto.TestCrypto testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(caesar_final.encrypt(&quot;a&quot;, 13), &quot;n&quot;)<br/><span class="error">E       AssertionError: None != &#x27;n&#x27;</span><br/><br/>crypto/test_crypto.py:10: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_crypto.py::TestCrypto::test_solution_2</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_crypto.TestCrypto testMethod=test_solution_2&gt;<br/><br/>    def test_solution_2(self):<br/>&gt;       self.assertEqual(caesar_final.encrypt(&quot;LaunchCode&quot;, 13), &quot;YnhapuPbqr&quot;)<br/><span class="error">E       AssertionError: None != &#x27;YnhapuPbqr&#x27;</span><br/><br/>crypto/test_crypto.py:13: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_crypto.py::TestCrypto::test_solution_3</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_crypto.TestCrypto testMethod=test_solution_3&gt;<br/><br/>    def test_solution_3(self):<br/>&gt;       self.assertEqual(caesar_final.encrypt(&quot;Hello, World!&quot;, 5), &quot;Mjqqt, Btwqi!&quot;)<br/><span class="error">E       AssertionError: None != &#x27;Mjqqt, Btwqi!&#x27;</span><br/><br/>crypto/test_crypto.py:16: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
           <td class="col-name">crypto/test_crypto.py::TestCrypto::test_solution_4</td>
           <td class="col-duration">0.00</td></tr>
         <tr>
@@ -490,60 +328,6 @@ function filter_table(elem) {
         <tr>
           <td class="extra" colspan="4">
             <div class="log">self = &lt;crypto.test_crypto.TestCrypto testMethod=test_solution_6&gt;<br/><br/>    def test_solution_6(self):<br/>&gt;       self.assertEqual(vigenere_final.encrypt(&quot;Wow. This TOTALLY rocks: #CodingRocks&quot;, &quot;enthusiasm&quot;), &quot;Abp. Abaa TGFEYEF lgkkk: #OsqbuaJwcce&quot;)<br/><span class="error">E       AssertionError: None != &#x27;Abp. Abaa TGFEYEF lgkkk: #OsqbuaJwcce&#x27;</span><br/><br/>crypto/test_crypto.py:25: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_vigenere.TestVigenere testMethod=test_solution&gt;<br/><br/>    def test_solution(self):<br/>&gt;       self.assertEqual(alphabet_position(&quot;b&quot;), 1)<br/><span class="error">E       AssertionError: None != 1</span><br/><br/>crypto/test_vigenere.py:9: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_2</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_vigenere.TestVigenere testMethod=test_solution_2&gt;<br/><br/>    def test_solution_2(self):<br/>&gt;       self.assertEqual(alphabet_position(&quot;C&quot;), 2)<br/><span class="error">E       AssertionError: None != 2</span><br/><br/>crypto/test_vigenere.py:12: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_3</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_vigenere.TestVigenere testMethod=test_solution_3&gt;<br/><br/>    def test_solution_3(self):<br/>&gt;       self.assertEqual(alphabet_position(&quot;Z&quot;), 25)<br/><span class="error">E       AssertionError: None != 25</span><br/><br/>crypto/test_vigenere.py:15: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_4</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_vigenere.TestVigenere testMethod=test_solution_4&gt;<br/><br/>    def test_solution_4(self):<br/>&gt;       self.assertEqual(rotate_character(&quot; &quot;, 45), &quot; &quot;)<br/><span class="error">E       AssertionError: None != &#x27; &#x27;</span><br/><br/>crypto/test_vigenere.py:18: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_5</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_vigenere.TestVigenere testMethod=test_solution_5&gt;<br/><br/>    def test_solution_5(self):<br/>&gt;       self.assertEqual(rotate_character(&quot;A&quot;, 14), &quot;O&quot;)<br/><span class="error">E       AssertionError: None != &#x27;O&#x27;</span><br/><br/>crypto/test_vigenere.py:21: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td>crypto</td>
-          <td class="col-result">Failed</td>
-          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_6</td>
-          <td class="col-duration">0.00</td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;crypto.test_vigenere.TestVigenere testMethod=test_solution_6&gt;<br/><br/>    def test_solution_6(self):<br/>&gt;       self.assertEqual(rotate_character(&quot;z&quot;, 52), &quot;z&quot;)<br/><span class="error">E       AssertionError: None != &#x27;z&#x27;</span><br/><br/>crypto/test_vigenere.py:24: AssertionError<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td>crypto</td>
@@ -913,7 +697,223 @@ function filter_table(elem) {
         <tr>
           <td>Chapter_13</td>
           <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_13</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_02</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_13</td>
+          <td class="col-result">Passed</td>
           <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_03</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_13</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_04</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_13</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_05</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_13</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_06</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>Chapter_13</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Chapter_13/test_solution.py::TestChapter13::test_solution_07</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_2</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_3</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_4</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_5</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_6</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_7</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_8</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_caesar.py::TestCaesar::test_solution_9</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_crypto.py::TestCrypto::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_crypto.py::TestCrypto::test_solution_2</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_crypto.py::TestCrypto::test_solution_3</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_2</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_3</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_4</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_5</td>
+          <td class="col-duration">0.00</td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td>crypto</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">crypto/test_vigenere.py::TestVigenere::test_solution_6</td>
           <td class="col-duration">0.00</td></tr>
         <tr>
           <td class="extra" colspan="4">

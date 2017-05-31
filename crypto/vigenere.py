@@ -55,3 +55,6 @@ def main():
 
     
     print(user_input, user_encrypt)
+
+if __name__ == "__main__":
+    main()

@@ -14,8 +14,10 @@ class Chatbot:
 
 
 # TODO modify the code below to make BoredChatbot work as the instructions describe
-class BoredChatbot:
+class BoredChatbot(Chatbot):
 	
-    def response():	
+    def response(self, text):
+        if len(text) > 20:
+            return "zzz... Oh excuse me, I dozed off reading your essay."	
         
-        return	
+        return "It is very interesting that you say: '" + text + "'"

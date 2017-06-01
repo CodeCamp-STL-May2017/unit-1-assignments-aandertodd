@@ -54,7 +54,7 @@ def main():
     user_encrypt = input('Encryption Key: ')
 
     
-    print(user_input, user_encrypt)
+    print(encrypt(user_input, user_encrypt))
 
 if __name__ == "__main__":
     main()
